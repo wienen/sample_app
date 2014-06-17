@@ -9,7 +9,6 @@ gem 'sprockets', '2.11.0'
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
-  gem 'haml-rails'
   gem 'guard-rspec', '2.5.0'
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
@@ -22,6 +21,7 @@ group :test do
   gem 'growl', '1.0.3'
 end
 
+gem 'haml-rails'
 gem 'sass-rails', '4.0.1'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.1'
